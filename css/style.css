@@ -1,0 +1,189 @@
+body{
+margin: 0;
+background-image: linear-gradient(to right,grey,darkgrey);
+background-image: url("../images/black%20city.jpg") ;
+background-repeat: no-repeat;
+ background-size: cover;
+    
+
+}
+.container{
+    width: 780px;
+    margin: 0 auto;
+    background: linear-gradient(rgba(255,255,255,.7), rgba(66,66,66,.8));
+    color: white;
+    box-shadow: 4px 7px 8px 3px rgba(0,0,0,0.7);
+    border-radius: 5px;
+   
+    
+
+
+}
+
+
+.header{
+    padding: 45px 0 20px 40px; 
+    
+}
+.header a{
+    color: aliceblue;
+    text-shadow:3px 2px #737373;
+  ;
+}
+
+
+.menu{
+    background:#00004d;
+    background: rgba(0, 0, 51,0.4);
+    padding: 6px 0 6px 40px;
+}
+.menu a{
+    color:whitesmoke;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: "Comic Sans MS", cursive, sans-serif; 
+    
+}
+
+
+.menu a:hover{
+    color:lightslategrey;
+    
+
+}
+aside{
+    float:left;
+    width: 120px;
+    padding: 30px 0 0 40px;
+}
+
+h1{
+    margin: 0px;
+    color: darkblue;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+h2{
+    color: aqua;
+    font-size: 15px;
+    
+}
+
+
+.main{
+    margin: 0 0 0 180px;
+    padding: 35px 40px 40px 0;
+    color: white;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    text-emphasis: justify;
+    text-shadow: 1px 1px black;
+}
+.main a:hover{
+    color:lightslategrey;
+}
+
+footer{
+    padding: 6px 40px 6px 40px;
+    background: #6d6d6d;
+    font-family: "Lucida Sans Unicode";
+    color:white;
+    font-size: 11px;
+    text-decoration: right;
+}
+footer a{
+    text-decoration: none;
+    color:#262626;
+}
+
+.link-title{
+    text-decoration: none;
+    font-size: 24px;
+    color: #444444;
+    
+}
+.seprator{
+    color: white;
+    
+}
+#home-image img{ 
+    width: 100%;
+}
+
+/*******About Page Style******************/
+
+#about-page #home-image img{ 
+    width: 40%;
+    float: left;
+    border: 2px solid black;
+    padding: 5px;
+    background: white;
+    border-radius: 30px;
+    
+}
+#about-page #profile{
+    width: 20%;
+    float: right;
+    margin: 5px;
+}
+h2{    
+    color: aliceblue;
+}
+#about-page .description{
+    clear: both;
+}
+
+/***************Contact Page************/
+
+#contact #form{
+    width: 400px;
+    height: 390px;
+    padding: 10px;
+    margin: 0 auto;
+    box-shadow: 4px 7px 8px 0px rgba(0,0,0,0.7);
+    border-radius: 5px;
+    border: 1px solid black;
+
+}
+
+.page-heading{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.page-heading:hover{
+    transform: scale(8, 3);
+}
+
+#contact #form input{
+    width: 100%;
+    border-radius: 5px;
+    height: 20px;
+    background: #f9ffde;
+}
+
+#contact #form #message{
+    width: 100%;
+    border-radius: 5px;
+    background: #f9ffde; 
+}
+
+#contact #form #submit{
+    width: 120px;
+    background: rgb(94, 97, 121);
+    height: 30px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
